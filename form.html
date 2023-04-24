@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <title>application form</title>
     <style>
         body{
-            background-color: darkslategrey;
+            background-color: aquamarine;
+            color: red;
         }
+        form {
+            background-color: hotpink;
+            color: blue;
+        }
+       input{
+        background-color: deepskyblue;
+        color: red;
+       }
     </style>
 </head>
+
 <body>
-    <marquee>*******.......PLEASE FILL THIS FORN.......*******</marquee>
-    <form>
-        <lable for="surname">SURNAME:</lable>
-        <input type="text" id="surname" name="surname"><br>
-        <lable for="studentname">STUDENT NAME:</lable>
-        <input type="text" id="studentname" name="studentname"><br>
-        <lable for="fathername">FATHER NAME:</lable>
-        <input type="text" id="fathername" name="fathername"><br>
-        <label for="mpc">MPC</label>
-        <input type="radio" id="mpc" name="mpc"><br>
-        <input type="submit">
+    <marquee>*******.......FILL THE APPLICATION FORM.......*******</marquee>
+    <form align="center">
+        <lable for="sname">SURNAME:</lable>
+        <input type="text" id="sname" name="sname" placeholder="enter your surname"><br><br>
+        <lable for="name">NAME:</lable>
+        <input type="text" id="name" name="name" placeholder="enter your name"><br><br>
+        <lable for="fname">FATHER NAME:</lable>
+        <input type="text" id="fname" name="fname" placeholder="enter your father name"><br><br>
+        <lable for="mname">MOTHER NAME:</lable>
+        <input type="text" id="mname" name="mname" placeholder="enter your mother name"><br><br>
+        <lable for="">GENDER:</lable>
+        <input type="radio" id="name" name="name">
+        <lable for="male">MALE</lable>
+        <input type="radio" id="name" name="name">
+        <lable for="female">FEMALE</lable><br><br>
+        <ladle for="">DATE OF BIRTH:</ladle>
+        <input type="date" id="name" name="name" placeholder="enter your D.O.B"><br><br>
+        <lable for="mail">E-MAIL:</lable>
+        <input type="mail" id="mail" name="mail" placeholder="enter your mali"><br><br>
+        <input type="submit" value="LOGIN">
     </form>
 </body>
+
 </html>

@@ -1,59 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
-    <style>
-        th
-        {
-         color: maroon;
-         background-color: chartreuse;
-        }
-        td
-        {
-         color: crimson;
-         background-color: aqua;
-        }
-        table
-        {
-        border-color: mediumvioletred;
-        border-style: ridge;
-        }
-    </style>
 </head>
-
 <body>
-    <table border="1" cellspacing="0px" cellpadding="2px">
-        <thead>
-            <th>name</th>
-            <th>last name</th>
-            <th>group</th>
-            <th>id</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>appu</td>
-                <td>abcd</td>
-                <td>mscs</td>
-                <td>0407</td>
-            </tr>
-            <tr>
-                <td>nikki</td>
-                <td>efgh</td>
-                <td>bzc</td>
-                <td>0509</td>
-            </tr>
-            <tr>
-                <td>lilly</td>
-                <td>ijkl</td>
-                <td>b.com</td>
-                <td>2505</td>
-            </tr>
-        </tbody>
+    <table border="1" cellspacing="0px" cellpadding="10px">
+        <tr>
+            <th rowspan="2" colspan="2">RBD</th>
+            <th colspan="4">BLOCKS</th>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <th>2.</th>
+            <th>3.</th>
+            <th>4.</th>
+        </tr>
+        <tr>
+            <th rowspan="3">TREATMENTS</th>
+            <th>1.</th>
+            <td>25</td>
+            <td>04</td>
+            <td>05</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <th>2.</th>
+            <td colspan="2">16</td>
+            <td rowspan="2">05</td>
+            <td>07</td>
+        </tr>
+        <tr>
+            <th>3.</th>
+            <td>49</td>
+            <td>36</td>
+            <td>25</td>
+        </tr>
     </table>
 </body>
-
 </html>
